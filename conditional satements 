@@ -1,0 +1,96 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPWU7yxKaAdF2Mvj8+5uw6N",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/fathimaayoob03-lang/Fathima.-j/blob/main/conditional%20satements%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "Yqab8k658XUA"
+      },
+      "outputs": [],
+      "source": [
+        "#if it is raining _> take umbrella\n",
+        "#else _> wear sunglasses"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#if statement\n",
+        "num = int(input(\"Enter a number : \"))\n",
+        "if num > 0:\n",
+        "  print(\"The number is positive.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bV9p6ZOQ9OcJ",
+        "outputId": "d50df24d-82cf-49fd-8013-a0cefaf19f15"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number : 5\n",
+            "The number is positive.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#check if a number is even\n",
+        "num = int(input(\"Enter a number :\"))\n",
+        "if num %2 == 0:\n",
+        "  print(\"The number is even.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "e-dUHD8E-WmI",
+        "outputId": "6aa496b3-ebe3-4265-8734-e98ae341fd79"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number :0\n",
+            "The number is even.\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
