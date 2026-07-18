@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPWU7yxKaAdF2Mvj8+5uw6N",
+      "authorship_tag": "ABX9TyP66hw+yQr4ANhJ6dHHbbs9",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,7 +28,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 8,
       "metadata": {
         "id": "Yqab8k658XUA"
       },
@@ -88,6 +88,354 @@
           "text": [
             "Enter a number :0\n",
             "The number is even.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#check if a person is eligible to vote\n",
+        "age = int(input(\"Enter your age: \"))\n",
+        "if age >= 18:\n",
+        "  print(\"You are eligible to vote\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AMnTaYYp0mK6",
+        "outputId": "56ec9fe8-f141-40ac-d2bf-df92b52941d9"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your age: 18\n",
+            "You are eligible to vote\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#check if a student passed\n",
+        "marks = int(input(\"Enter your marks: \"))\n",
+        "if marks >=35:\n",
+        "  print(\"You passed the exam\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-Xy2Wwm31x0q",
+        "outputId": "365817bf-f3b3-4ab0-bc82-d0a93a252b6b"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your marks: 60\n",
+            "You passed the exam\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#check if a number is greater than another number\n",
+        "a = int(input(\"Enter a number: \" ))\n",
+        "b = int(input(\"Enter a number: \"))\n",
+        "if a > b:\n",
+        "  print(f\"{a} is greater than {b}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "e2gcztu72aMO",
+        "outputId": "e27ca758-7d08-4010-dc65-76c4f542d98f"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 20\n",
+            "Enter a number: 10\n",
+            "20 is greater than 10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "if else statement"
+      ],
+      "metadata": {
+        "id": "BsKE2--U35C0"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#chech if a number is positive or negative\n",
+        "num = int(input(\"Enter a number: \"))\n",
+        "if num >=0:\n",
+        "  print(\"The number is positive\")\n",
+        "else:\n",
+        "  print(\"The number is negative\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BNXsl_L438q3",
+        "outputId": "05e3f428-80e6-495a-eeef-b3853ca7a49c"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 25\n",
+            "The number is positive\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#check if a number is even or odd\n",
+        "num = int(input(\"Enter a number: \"))\n",
+        "if num % 2 == 0:\n",
+        "  print(\"The number is positive\")\n",
+        "else:\n",
+        "  print(\"The number is odd\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Y2_fLfjS5I12",
+        "outputId": "e916b146-b786-436e-f82e-e405c9b63de3"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 5\n",
+            "The number is odd\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#check votting eligibility\n",
+        "age = int(input(\"Enter Your age: \"))\n",
+        "if age >= 18:\n",
+        "  print(\"Your eligble to vote\")\n",
+        "else:\n",
+        "  print(\"Your not eligible to vote\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_kJWWgmk6Hzc",
+        "outputId": "7f68e834-39f4-4dfa-cfe9-abdbee2df074"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter Your age: 4\n",
+            "Your not eligible to vote\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#check if a student pass in the exam\n",
+        "marks = int(input(\"Enter your Marks: \"))\n",
+        "if marks >= 50:\n",
+        "  print(\"Very good you have passed the exam\")\n",
+        "else:\n",
+        "  print(\"sorry your failed in the exam\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "M2cYQcTv62_-",
+        "outputId": "58350922-c6e2-4856-cefe-91ec68632076"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your Marks: 45\n",
+            "sorry your failed in the exam\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#chech if a number is greater or smaller than 10\n",
+        "num = int(input(\"Enter a number: \"))\n",
+        "if num >= 10:\n",
+        "  print(\"The number is greater than 10\")\n",
+        "else:\n",
+        "  print(\"The number is smaller than 10\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yUxfAk6T8Iv6",
+        "outputId": "cf491873-7b49-42ff-d160-22d576c3469b"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 9\n",
+            "The number is smaller than 10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "elif(else if)"
+      ],
+      "metadata": {
+        "id": "CDj6oy919Qp0"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#check grade based on marks\n",
+        "marks = int(input(\"Enter your marks: \"))\n",
+        "if marks >=90:\n",
+        "  print(\"Grade:A\")\n",
+        "elif marks >=80:\n",
+        "  print(\"Grade:B\")\n",
+        "elif marks >=50:\n",
+        "  print(\"Grade:C\")\n",
+        "else:\n",
+        "  print(\"Grade:F\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Sjz_ARGM9N0E",
+        "outputId": "f35b28ff-749c-4477-864d-39d5f8dca10b"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your marks: 55\n",
+            "Grade:C\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#check the largest among three numbers\n",
+        "a = int(input(\"Enter a number: \"))\n",
+        "b = int(input(\"Enter a number: \"))\n",
+        "c = int(input(\"Enter a number: \"))\n",
+        "if a>b and a>c:\n",
+        "  print(f\"{a} is the largest\")\n",
+        "elif b>c:\n",
+        "  print(f\"{b} is the largest\")\n",
+        "else:\n",
+        "  print(f\"{c} is the largest\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dqMWw_Gm-VRS",
+        "outputId": "10ef1370-f0a0-486d-cc4e-76eb07234b86"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 10\n",
+            "Enter a number: 20\n",
+            "Enter a number: 30\n",
+            "30 is the largest\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#check speed category\n",
+        "speed = int(input(\"Enter speed in km/h: \"))\n",
+        "if speed >120:\n",
+        "  print(\"Very fast\")\n",
+        "elif speed >80:\n",
+        "  print(\"Fast\")\n",
+        "elif speed >40:\n",
+        "  print(\"Normal\")\n",
+        "else:\n",
+        "  print(\"Slow\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sdk2KR3o-Usk",
+        "outputId": "fe502e4c-5409-4159-8db1-7367eb155429"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter speed in km/h: 30\n",
+            "Slow\n"
           ]
         }
       ]
